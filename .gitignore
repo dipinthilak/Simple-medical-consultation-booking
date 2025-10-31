@@ -1,0 +1,70 @@
+# Node
+node_modules/
+**/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment / secrets
+.env
+.env.* 
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+/server/.env
+
+# Logs and runtime files
+logs/
+*.log
+pids/
+*.pid
+*.pid.lock
+tmp/
+temp/
+.cache/
+
+# Build / output
+dist/
+build/
+out/
+public/build/
+
+# Coverage / test reports
+coverage/
+.nyc_output/
+coverage-report/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+.Spotlight-V100
+.Trashes
+
+# IDE / editor
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Database / binaries
+*.sqlite
+*.sqlite3
+*.db
+*.sql
+*.tgz
+
+# Certificates / keys
+*.pem
+*.key
+*.crt
+*.p12
+
+# Docker / container
+docker-compose.override.yml
+.env.docker
+
+# Misc
+*.log.*
+.vagrant/
